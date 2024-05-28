@@ -11,7 +11,11 @@ class _SecondPageState extends State<SecondPage> {
   @override
   Widget build(BuildContext context) {
     return const Center(
-      child: Text("This is test TEst"),
+      child: Row(
+        children: [
+          Text("This is test TEst"),
+        ],
+      ),
     );
   }
 }
