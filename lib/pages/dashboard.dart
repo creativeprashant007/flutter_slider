@@ -14,6 +14,7 @@ class _SecondPageState extends State<SecondPage> {
       child: Row(
         children: [
           Text("This is test TEst"),
+          Text("This is text text 2"),
         ],
       ),
     );
