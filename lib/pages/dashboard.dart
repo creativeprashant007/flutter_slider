@@ -15,6 +15,7 @@ class _SecondPageState extends State<SecondPage> {
         children: [
           Text("This is test TEst"),
           Text("This is text text 2"),
+          Text("This is text text 3"),
         ],
       ),
     );
