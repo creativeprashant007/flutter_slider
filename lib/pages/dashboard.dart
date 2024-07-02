@@ -23,6 +23,7 @@ class _SecondPageState extends State<SecondPage> {
           Text("This is text text 9"),
           Text("This is text text 10"),
           Text("This is text text 11"),
+          Text("This is text text 12"),
         ],
       ),
     );
