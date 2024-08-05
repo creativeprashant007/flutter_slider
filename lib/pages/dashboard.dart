@@ -32,6 +32,8 @@ class _SecondPageState extends State<SecondPage> {
           Text("This is text text 18"),
           Text("This is text text 19"),
           Text("This is text text 20"),
+          Text("This is text text 21"),
+          Text("This is text text 23"),
         ],
       ),
     );
