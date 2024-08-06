@@ -10,30 +10,17 @@ class SecondPage extends StatefulWidget {
 class _SecondPageState extends State<SecondPage> {
   @override
   Widget build(BuildContext context) {
-    return const Center(
+    return Center(
       child: Row(
         children: [
-          Text("This is test TEst"),
-          Text("This is text text 2"),
-          Text("This is text text 3"),
-          Text("This is text text 4"),
-          Text("This is text text 5"),
-          Text("This is text text 6"),
-          Text("This is text text 7"),
-          Text("This is text text 9"),
-          Text("This is text text 10"),
-          Text("This is text text 11"),
-          Text("This is text text 12"),
-          Text("This is text text 13"),
-          Text("This is text text 14"),
-          Text("This is text text 15"),
-          Text("This is text text 16"),
-          Text("This is text text 17"),
-          Text("This is text text 18"),
-          Text("This is text text 19"),
-          Text("This is text text 20"),
-          Text("This is text text 21"),
-          Text("This is text text 23"),
+          Column(
+            children: [
+              Container(
+                color: Colors.amber,
+                child: const Text("This is text first"),
+              )
+            ],
+          )
         ],
       ),
     );
