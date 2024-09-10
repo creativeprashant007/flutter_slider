@@ -54,6 +54,10 @@ class _SecondPageState extends State<SecondPage> {
               Container(
                 color: Colors.grey,
                 child: const Text("This is text 7th"),
+              ),
+              Container(
+                color: Colors.white,
+                child: const Text("This is text 8th"),
               )
             ],
           )
